@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies app</title>
+</head>
+<body>
+        <form id="form">
+            <fieldset>
+                
+                <div style="margin: 10px;">
+                    <input type="text" name="movie name" id="movie-name" size="50" placeholder="enter movie name">
+                </div>
+                <div style="margin: 10px;">
+                    <input type="text" name="movie rating" id="movie-rating" size="50" placeholder="enter movie rating">
+                </div>
+           
+            </fieldset>    
+
+            <input type="submit" value="Submit" id="submitButton">
+
+        </form>
+        <table id="title-rating-delete table">
+                <thead id="table header">
+                <tr>
+                    <th scope="col" id="title">Title</th>
+                    <th scope="col" id="rating">Rating</th>
+                    <th scope="col">Delete</th>
+                </tr>
+                </thead>   
+                 <tbody id="movie-table-body">
+              
+                </tbody>
+        </table>    
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="jQuery_Exercise_Movie_App.js"></script>  
+</body>
+</html>
